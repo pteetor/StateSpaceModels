@@ -9,3 +9,16 @@ I describe the recipes on my website.
 > http://www.quantdevel.com/public/StateSpaceModels/
 
 This repository contains R code for the recipes.
+These are the main recipes, most likely to be useful for day-to-day work:
+
+* localLevel.R - Local level model
+* localLinearTrend.R - Local linear trend model
+* regressionFixedCoeffs.R - Regression model with fixed coefficients
+* regressionVaryingCoeffs.R - Regression model with time-varying coefficients
+
+These recipes may come in handy, too, in special circumstances:
+
+* randomWalk.R - Random walk model, StructTS implementation
+* randomWalk-dlm.R - Random walk model, dlm implemenation
+* localLevel-dlm.R - Local level model, dlm implemenatation
+* localLinearTrend-dlm.R - Local linear trend model, dlm implementation
