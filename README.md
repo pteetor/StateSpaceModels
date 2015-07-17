@@ -1,4 +1,4 @@
-# StateSpaceModels
+# Recipes for State-Space Models in R
 State-space models are useful for modeling time series data,
 and R contains several excellent packages for creating the models.
 Unfortunately, using these packages requires knowing many little details,
