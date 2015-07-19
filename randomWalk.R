@@ -10,4 +10,4 @@ y <- datasets::Nile
 struct <- StructTS(y, type="level",
                    fixed=c(0, NA))
 
-tsdiag(struct)
+tsdiag(struct, main="Random Walk Model")

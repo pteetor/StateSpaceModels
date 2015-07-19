@@ -24,4 +24,4 @@ cat("Transitional variance:", model$W, "\n",
     "Initial level:", model$m0, "\n")
 
 filt <- dlmFilter(y, model)
-tsdiag(filt)
+tsdiag(filt, main="Random Walk Model")

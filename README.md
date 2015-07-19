@@ -1,8 +1,9 @@
 # Recipes for State-Space Models in R
 State-space models are useful for modeling time series data,
 and R contains several excellent packages for creating the models.
-Unfortunately, using these packages requires knowing many little details,
-and I can never remember them. So I put together some recipes.
+Unfortunately, using these packages involves many little details,
+and I can never remember them.
+So I put together some recipes to let me quickly build state-space models.
 
 I describe the recipes on my website.
 
@@ -16,7 +17,7 @@ These are the main recipes, most likely to be useful for day-to-day work:
 * regressionFixedCoeffs.R - Regression model with fixed coefficients
 * regressionVaryingCoeffs.R - Regression model with time-varying coefficients
 
-These recipes may come in handy, too, in special circumstances:
+These recipes may come in handy in special circumstances:
 
 * randomWalk.R - Random walk model, StructTS implementation
 * randomWalk-dlm.R - Random walk model, dlm implemenation
